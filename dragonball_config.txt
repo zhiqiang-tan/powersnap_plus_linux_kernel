@@ -1,0 +1,6 @@
+#dtparam=i2c=on
+#dtparam=spi=on
+#dtparam=uart=on
+dtparam=serialport=rs232
+dtparam=dualdisplay=on
+dtparam=lvds=tm070jdhg30

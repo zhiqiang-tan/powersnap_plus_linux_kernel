@@ -1,0 +1,6 @@
+config DRM_I2C_SN65DSI86
+	bool "TI SN65DSI86 MIPI DSI to DP bridge"
+	depends on OF
+	select DRM_MIPI_DSI
+	help
+	  TI SN65DSI86 MIPI DSI to DP bridge driver
